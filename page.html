@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--agregar metadatos-->
+    <link rel="stylesheet" href="estilo.css">
+    <title>Título más adecuado</title>
+</head>
+
+<body>
+    <nav>
+        <select onchange="if (this.value) window.location.href=this.value">
+            <option value="index.html">Página portada</option>
+            <option value="page.html" selected>Página interior</option>
+        </select>
+    </nav>
+    <div class="container">
+        <header>
+            <!--el elemento hgroup ya no se usa; ver http://html5doctor.com/the-hgroup-element/ -->
+            <h1><a href="index.html">Repite el encabezado principal de página de portada</a></h1>
+        </header>
+        <section>
+            <h2>Qué es el Índice de Calidad de Vida Urbana 2019</h2>
+            <p>El Índice de Calidad de Vida Urbana mide y compara en términos relativos la calidad de vida urbana de comunas y ciudades en Chile, a partir de un conjunto de variables referidas
+            a seis dimensiones que expresan el <strong>estado de situación en la provisión de bienes y servicios públicos y privados</strong> a la
+            población residente y sus correspondientes impactos socioterritoriales, tanto a escala de ciudades intermedias como metropolitana.</p>
+
+            <p>El ICVU mide 6 dimensiones mediante un total, para este año 2019, de 36 variables estadísticas seleccionadas con criterio experto. </p>
+            <!-- ver https://developer.mozilla.org/es/docs/Web/HTML/Elemento/dl -->
+            <dl>
+                <dt><strong>Condiciones Laborales (CL)</strong></dt>
+                <dd>Condiciones laborales de la población residente en términos de ingreso, condiciones contractuales, costo de vida y nivel de endeudamiento.</dd>
+                <dt><strong>Ambiente de Negocios (AN)</strong></dt>
+                <dd>Capacidad de atraer actividad económica y nuevos emprendimientos, desarrollos inmobiliarios y nuevos servicios públicos y privados.</dd>
+                <dt><strong>Condiciones Socioculturales (CS)</strong></dt>
+                <dd>Aspectos relativos al desarrollo de capital social, conforme la oferta y resultados en educación, participación ciudadana y convivencia social.</dd>
+                <dt><strong>Conectividad y Movilidad (CM)</strong></dt>
+                <dd>Acceso y proximidad a los servicios asociados al transporte público, nivel de exposición a accidentes de tránsito y conexión a internet. </dd>
+                <dt><strong>Salud y Medio Ambiente (SM)</strong></dt>
+                <dd>Acceso y proximidad a la red de salud, carencias en materia de salud y nivel de exposición ambiental en su entorno. </dd>
+                <dt><strong>Vivienda y Entorno (VE)</strong></dt>
+                <dd>Estado de precariedad de la vivienda, así como condición del espacio público en términos de su mantenimiento y nivel de inseguridad en los barrios. </dd>
+            </dl>
+            <p>Hemos elegido 10 comunas, 3 correspondientes a los tres valores más altos en el rango superior, 4 correspondientes a las medianas del rango promedio y finalmente 3 correspondientes a los tres valores más bajos del rango inferior:</p>
+
+            <table>
+                <tr>
+                    <th>Comuna</th>
+                    <th>Región</th>
+                    <th>ICVU 2019</th>
+                </tr>
+                <tr>
+                    <td>Vitacura</td>
+                    <td>Metropolitana</td>
+                    <td>75,59</td>
+                </tr>
+                <tr>
+                    <td>Las Condes</td>
+                    <td>Metropolitana</td>
+                    <td>74,54</td>
+                </tr>
+                <tr>
+                    <td>La Reina</td>
+                    <td>Metropolitana</td>
+                    <td>70,45</td>
+                </tr>
+                <tr>
+                    <td>Quillota</td>
+                    <td>Valparaíso</td>
+                    <td>54,63</td>
+                </tr>
+                 <tr>
+                    <td>Copiapó</td>
+                    <td>Atacama</td>
+                    <td>54,6</td>
+                </tr>
+                <tr>
+                    <td>Peñalolén</td>
+                    <td>Metropolitana</td>
+                    <td>54,28</td>
+                </tr>
+                <tr>
+                    <td>La Calera</td>
+                    <td>Valparaíso</td>
+                    <td>54,25</td>
+                </tr>
+                <tr>
+                    <td>Lo Espejo</td>
+                    <td>Metropolitana</td>
+                    <td>38,82</td>
+                </tr>
+                <tr>
+                    <td>San Javier</td>
+                    <td>Maule</td>
+                    <td>38,11</td>
+                </tr>
+                <tr>
+                    <td>La Pintana</td>
+                    <td>Metropolitana</td>
+                    <td>38,08</td>
+                </tr>
+            </table>
+
+            <p>Para más información puedes <a href="index.html">volver a la página portada</a>.</p>
+
+        </section>
+        <footer>
+            <hr>
+            <p>Nombre Apellido &copy; 2020 <span class="derecha">Séptima clase, enfocada en <abbr title="HyperText Markup Language">html</abbr></span></p>
+        </footer>
+    </div>
+</body>
+
+</html>
